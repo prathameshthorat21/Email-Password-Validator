@@ -1,0 +1,37 @@
+<!-- Made By Prathamesh Thorat -->
+<!-- 
+Name = Email & Password Validator
+Auther = Pratahmesh Thorat
+Used Language = HTML , CSS , JS
+-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/index.css">
+  <script src="js/index.js"></script>
+  <title>Email & Password Validator</title>
+</head>
+<body>
+        <div id="form">
+            <input id="email" type="email" placeholder="Enter Your Email...">
+            <br/><br/>
+            <div id="ec">
+<span>- Should Contain at-rate-of ( @ ) sign.</span> <br/>
+<span>- Should Contain dot ( . ).           </span>  <br/> 
+<span>- Should Not Contain spaces. </span>
+            </div>
+              <br/><br/>
+            <input id="pass" type="password" placeholder="Eneter Your Password..."><button id="psh" onclick="psh()"><b>Show</b></button>  <br/><br/>
+            <div id="pass-r">
+<span>- Length Should be between 5 and 10;</span><br/>
+ <span>- Should contain at least one number;</span><br/>
+ <span>- Should contain at least one special character (such as &, @, $, #, %, + etc.);</span><br/>
+ <span>- Should not contain spaces.</span>
+ </div>
+   <br/><br/>
+ <button id="check" onclick="check()"><b>Now Check !</b></button>
+        </div>
+</body>
+</html>

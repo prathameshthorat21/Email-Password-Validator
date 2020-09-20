@@ -1,0 +1,39 @@
+/* Made By Prathamesh Thorat */
+*{
+    margin:3px;
+    padding:0;    
+}
+body {    
+    background-color:#21243D;
+    font-family: none;
+}
+#form{
+    background-color:#88E1F2;
+    border:5px solid #FF7C7C;        
+}
+#psh{
+    background-color:#FFD082;
+    border:0;
+    height:30px;
+    width:50px;
+    float:right;
+    color:#21243D;
+    font-family: none;
+}    
+input{
+    height:25px;    
+    width:250px;
+    font-family: none;
+}
+#check{
+    background-color:#FFD082;
+    border:0;
+    height:50px;
+    width:100px;
+    margin-left:120px;
+    color:#21243D;
+    font-family: none;
+}
+span{
+    color:red;
+}
